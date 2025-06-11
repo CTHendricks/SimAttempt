@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dj8myd3tqjy7f"]
+
+[ext_resource type="Script" uid="uid://dkxh0nagpf5tp" path="res://scripts/clickdrag.gd" id="1_2f0wm"]
+
+[node name="clickdrag" type="Node2D"]
+script = ExtResource("1_2f0wm")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0

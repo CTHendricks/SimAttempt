@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://dvuaor242csfi"]
+[gd_scene load_steps=3 format=3 uid="uid://dvuaor242csfi"]
 
 [ext_resource type="Script" uid="uid://ddk36evwikqt5" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://dj8myd3tqjy7f" path="res://Scenes/clickdrag.tscn" id="2_0wfyh"]
 
 [node name="main" type="Node2D"]
 script = ExtResource("1_o5qli")
+
+[node name="clickdrag" parent="." instance=ExtResource("2_0wfyh")]
